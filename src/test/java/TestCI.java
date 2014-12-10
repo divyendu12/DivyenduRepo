@@ -16,7 +16,7 @@ public class TestCI {
 	    driver.get(baseUrl);
 	    driver.findElement(By.xpath(".//*[@id='searchInput']")).sendKeys("software testing");
 	    driver.findElement(By.xpath("//*[@id='searchButton']")).click();
-	    driver.close();
+	    driver.quit();;
 	
 	}
 
